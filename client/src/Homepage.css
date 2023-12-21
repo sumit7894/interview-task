@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans);
+.table__container
+{
+    font-family: 'DM Sans';
+    margin: 8vh;
+    border-collapse: collapse;
+    border: none;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    height: 2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    color: white;
+    background-color: #5b9ad5;
+}
+td
+{
+    border: 1px solid white;
+    padding: 0.6rem;
+}
