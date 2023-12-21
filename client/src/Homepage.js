@@ -10,7 +10,7 @@ const Homepage = () => {
     
       const fetchApi = async()=>{
         try {
-          const response = await axios.get("http://localhost:3000/v1/api");
+          const response = await axios.get("https://interview-task-fullstack.onrender.com/v1/api");
           setData(response?.data);
         } catch (error) {
           console.log(error);
